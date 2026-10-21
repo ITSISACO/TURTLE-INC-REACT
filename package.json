@@ -1,0 +1,11 @@
+{
+  "name": "turtle-inc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TURTLE INC - Migración a React con Vite y React Router",
+  "scripts": {
+    "dev": "npm --prefix TURTLE-INC-REACT run dev",
+    "build": "npm --prefix TURTLE-INC-REACT run build",
+    "preview": "npm --prefix TURTLE-INC-REACT run preview"
+  }
+}

@@ -1,0 +1,2213 @@
+/* ==========================================================================
+   TURTLE INC - ESTILOS AISLADOS POR SECCIÓN (VISTA DE ESCRITORIO IDÉNTICA AL ORIGINAL)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. NAVBAR & HEADER GLOBALES
+   -------------------------------------------------------------------------- */
+header {
+  background: linear-gradient(90deg, #FFD700, #81C784) !important;
+  color: white !important;
+  padding: 12px 0 !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+header h1 {
+  margin: 0 !important;
+  font-size: 2.2rem !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  color: white !important;
+  letter-spacing: 1px !important;
+  line-height: 1.2 !important;
+}
+
+.navbar {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background-color: #222 !important;
+  padding: 15px 30px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.navbar .container-fluid {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  color: white !important;
+  text-decoration: none !important;
+  display: flex !important;
+  align-items: center !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.navbar .busqueda {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 20px !important;
+}
+
+.navbar .busqueda input {
+  width: 220px !important;
+  height: 38px !important;
+  padding: 8px 14px !important;
+  border: none !important;
+  border-radius: 20px 0 0 20px !important;
+  outline: none !important;
+  font-size: 15px !important;
+  background: white !important;
+  color: #111 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.navbar .busqueda button {
+  width: auto !important;
+  height: 38px !important;
+  padding: 0 16px !important;
+  border: none !important;
+  background: #ffd000 !important;
+  color: black !important;
+  cursor: pointer !important;
+  border-radius: 0 20px 20px 0 !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  transition: 0.2s !important;
+}
+
+.navbar .busqueda button:hover {
+  background: #ffb700 !important;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  align-items: center !important;
+}
+
+.nav-item {
+  margin-left: 15px !important;
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 10px 15px !important;
+  transition: 0.3s !important;
+  font-size: 16px !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffc107 !important;
+}
+
+.boton-carrito {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: transparent !important;
+  color: white !important;
+  font-size: 20px !important;
+  padding: 8px 12px !important;
+  border-radius: 50% !important;
+  text-decoration: none !important;
+  transition: 0.3s !important;
+}
+
+.boton-carrito:hover {
+  background-color: #ffd000 !important;
+  transform: scale(1.1) !important;
+}
+
+footer {
+  background-color: #222 !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 15px 0 !important;
+  width: 100% !important;
+  margin-top: auto !important;
+}
+
+footer p {
+  margin: 0 !important;
+  color: white !important;
+  font-size: 15px !important;
+  font-family: 'Luckiest Guy', cursive, sans-serif !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. ÚLTIMOS DROPS (.page-ultimos-drops)
+   -------------------------------------------------------------------------- */
+.page-ultimos-drops .productos {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 30px !important;
+  padding: 40px !important;
+  max-width: 1350px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.page-ultimos-drops .link-producto {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block !important;
+}
+
+.page-ultimos-drops .producto {
+  background: white !important;
+  padding: 15px !important;
+  text-align: left !important;
+  transition: 0.3s !important;
+  border-radius: 15px !important;
+  position: relative !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+
+.page-ultimos-drops .producto:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.page-ultimos-drops .producto img {
+  width: 100% !important;
+  height: 320px !important;
+  object-fit: contain !important;
+  padding: 15px !important;
+  box-sizing: border-box !important;
+  border-radius: 15px !important;
+  background: #f5f5f5 !important;
+  display: block !important;
+}
+
+.page-ultimos-drops .proximamente {
+  position: absolute !important;
+  top: 25px !important;
+  right: 25px !important;
+  background-color: #ffd900 !important;
+  color: #222 !important;
+  padding: 6px 12px !important;
+  border-radius: 20px !important;
+  font-weight: bold !important;
+  font-size: 13px !important;
+  z-index: 2 !important;
+}
+
+.page-ultimos-drops .nuevo {
+  font-size: 12px !important;
+  color: #777 !important;
+  margin: 12px 0 5px 0 !important;
+  font-weight: bold !important;
+}
+
+.page-ultimos-drops .producto h3 {
+  font-size: 18px !important;
+  margin: 5px 0 !important;
+  color: #111 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-ultimos-drops .precio {
+  font-size: 16px !important;
+  color: #222 !important;
+  font-weight: bold !important;
+  margin: 5px 0 0 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. PRENDAS (.page-prendas)
+   -------------------------------------------------------------------------- */
+.page-prendas .Botones {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 40px !important;
+  width: 90% !important;
+  max-width: 1200px !important;
+  margin: 60px auto !important;
+  box-sizing: border-box !important;
+}
+
+.page-prendas .card-prenda {
+  position: relative !important;
+  display: block !important;
+  width: 50% !important;
+  height: 500px !important;
+  overflow: hidden !important;
+  border-radius: 20px !important;
+  text-decoration: none !important;
+  background-color: #222 !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.page-prendas .card-prenda:hover {
+  transform: scale(1.03) !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+.page-prendas .card-prenda img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  transition: transform 0.4s ease !important;
+}
+
+.page-prendas .card-prenda::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.1)) !important;
+  pointer-events: none !important;
+}
+
+.page-prendas .texto-boton {
+  position: absolute !important;
+  z-index: 2 !important;
+  bottom: 30px !important;
+  left: 30px !important;
+  color: white !important;
+  text-align: left !important;
+}
+
+.page-prendas .texto-boton h2 {
+  margin: 0 0 8px !important;
+  font-size: 32px !important;
+  color: white !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-prendas .texto-boton p {
+  margin: 0 !important;
+  font-size: 18px !important;
+  color: #eee !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. PRENDAS MASCULINAS Y FEMENINAS (.page-prendasmasculinas, .page-prendasfemeninas)
+   -------------------------------------------------------------------------- */
+.page-prendasmasculinas .productos,
+.page-prendasfemeninas .productos {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 30px !important;
+  padding: 40px !important;
+  max-width: 1350px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.page-prendasmasculinas .producto,
+.page-prendasfemeninas .producto {
+  background: white !important;
+  padding: 15px !important;
+  text-align: left !important;
+  transition: 0.3s !important;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.page-prendasmasculinas .producto:hover,
+.page-prendasfemeninas .producto:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.page-prendasmasculinas .producto a,
+.page-prendasfemeninas .producto a {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block !important;
+}
+
+.page-prendasmasculinas .producto img,
+.page-prendasfemeninas .producto img {
+  width: 100% !important;
+  height: 320px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+.page-prendasmasculinas .producto h3,
+.page-prendasfemeninas .producto h3 {
+  font-size: 18px !important;
+  margin: 12px 0 5px 0 !important;
+  color: #222 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-prendasmasculinas .precio,
+.page-prendasfemeninas .precio {
+  font-size: 16px !important;
+  color: #222 !important;
+  font-weight: bold !important;
+  margin: 5px 0 0 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. CAPARAZONES (.page-caparazones)
+   -------------------------------------------------------------------------- */
+.page-caparazones .contenedor {
+  width: 90% !important;
+  max-width: 1100px !important;
+  margin: 40px auto !important;
+  display: flex !important;
+  gap: 30px !important;
+  align-items: stretch !important;
+  box-sizing: border-box !important;
+}
+
+.page-caparazones .info,
+.page-caparazones .recompensas {
+  flex: 1 !important;
+  background: white !important;
+  border-radius: 15px !important;
+  padding: 30px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .15) !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-caparazones .info h2,
+.page-caparazones .recompensas h2 {
+  color: #2e8b2e !important;
+  text-align: center !important;
+  font-size: 28px !important;
+  margin-bottom: 20px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-caparazones .info p,
+.page-caparazones .recompensas p {
+  color: #555 !important;
+  text-align: center !important;
+  line-height: 1.8 !important;
+  font-size: 16px !important;
+  margin: 10px 0 !important;
+}
+
+.page-caparazones .boton1 {
+  display: inline-block !important;
+  background-color: #4CAF50 !important;
+  color: white !important;
+  text-decoration: none !important;
+  padding: 15px 35px !important;
+  border-radius: 10px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  transition: 0.3s !important;
+  margin-top: 25px !important;
+}
+
+.page-caparazones .boton1:hover {
+  background-color: #388E3C !important;
+  transform: scale(1.05) !important;
+}
+
+/* --------------------------------------------------------------------------
+   6. CARRITO TORTUGA (.page-carritotortugo)
+   -------------------------------------------------------------------------- */
+.page-carritotortugo .carrito {
+  width: 90% !important;
+  max-width: 1000px !important;
+  margin: 40px auto !important;
+  background-color: white !important;
+  padding: 30px 40px !important;
+  border-radius: 20px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15) !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+.page-carritotortugo .volver {
+  display: inline-block !important;
+  color: #777 !important;
+  text-decoration: none !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 14px !important;
+  margin-bottom: 15px !important;
+  text-align: left !important;
+}
+
+.page-carritotortugo .carrito h2 {
+  text-align: center !important;
+  margin-bottom: 30px !important;
+  font-size: 32px !important;
+  color: #222 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-carritotortugo .producto-carrito {
+  display: flex !important;
+  align-items: center !important;
+  gap: 20px !important;
+  padding: 20px 0 !important;
+  border-bottom: 2px solid #eeeeee !important;
+}
+
+.page-carritotortugo .producto-carrito img {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: cover !important;
+  border-radius: 15px !important;
+  display: block !important;
+}
+
+.page-carritotortugo .producto-info {
+  flex: 1 !important;
+}
+
+.page-carritotortugo .producto-info h3 {
+  margin: 0 !important;
+  font-size: 22px !important;
+  color: #222 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-carritotortugo .producto-info p {
+  margin: 5px 0 0 0 !important;
+  color: #555 !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 14px !important;
+}
+
+.page-carritotortugo .precio {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: #222 !important;
+  min-width: 110px !important;
+  text-align: right !important;
+}
+
+.page-carritotortugo .cantidad {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin: 0 20px !important;
+}
+
+.page-carritotortugo .cantidad button {
+  width: 32px !important;
+  height: 32px !important;
+  border: none !important;
+  border-radius: 50% !important;
+  background-color: #FFD700 !important;
+  color: #111 !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+  transition: 0.2s !important;
+}
+
+.page-carritotortugo .cantidad button:hover {
+  background-color: #81C784 !important;
+}
+
+.page-carritotortugo .cantidad span {
+  font-family: Arial, sans-serif !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  min-width: 18px !important;
+  text-align: center !important;
+}
+
+.page-carritotortugo .eliminar {
+  border: none !important;
+  background-color: #e74c3c !important;
+  color: white !important;
+  padding: 8px 14px !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  width: auto !important;
+  margin: 0 !important;
+  transition: 0.2s !important;
+}
+
+.page-carritotortugo .eliminar:hover {
+  background-color: #c0392b !important;
+}
+
+.page-carritotortugo .total {
+  text-align: right !important;
+  margin-top: 30px !important;
+  font-size: 28px !important;
+  color: #222 !important;
+  font-weight: bold !important;
+}
+
+.page-carritotortugo .comprar {
+  display: block !important;
+  margin-left: auto !important;
+  margin-top: 20px !important;
+  background-color: #81C784 !important;
+  border: none !important;
+  color: white !important;
+  padding: 15px 35px !important;
+  border-radius: 30px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  font-size: 20px !important;
+  cursor: pointer !important;
+  width: auto !important;
+  transition: 0.2s !important;
+}
+
+.page-carritotortugo .comprar:hover {
+  background-color: #66bb6a !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. FINALIZAR COMPRA / PEDIDO (.page-pedido)
+   -------------------------------------------------------------------------- */
+.page-pedido {
+  min-height: 100vh !important;
+  background: linear-gradient(135deg, #eef5f1 0%, #f8faf9 50%, #e8f2ed 100%) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 40px 20px !important;
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  color: #46535e !important;
+  box-sizing: border-box !important;
+}
+
+.page-pedido .contenedor {
+  width: 100% !important;
+  max-width: 650px !important;
+  background: white !important;
+  padding: 40px 55px 45px !important;
+  border-radius: 28px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12) !important;
+  border: 1px solid #e5eee9 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+.page-pedido .contenedor::before {
+  content: "" !important;
+  position: absolute !important;
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50% !important;
+  background: #e8f6ef !important;
+  top: -90px !important;
+  right: -70px !important;
+  z-index: 0 !important;
+}
+
+.page-pedido .contenedor::after {
+  content: "🐢" !important;
+  position: absolute !important;
+  font-size: 45px !important;
+  top: 25px !important;
+  right: 35px !important;
+  z-index: 1 !important;
+  opacity: 0.9 !important;
+}
+
+.page-pedido .volver {
+  display: inline-block !important;
+  color: #8a969c !important;
+  text-decoration: none !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 14px !important;
+  margin-bottom: 18px !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.page-pedido h1 {
+  position: relative !important;
+  z-index: 2 !important;
+  color: #46535e !important;
+  font-size: 38px !important;
+  line-height: 1.05 !important;
+  font-weight: 900 !important;
+  letter-spacing: -1px !important;
+  margin-bottom: 30px !important;
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+}
+
+.page-pedido h1::after {
+  content: "" !important;
+  display: block !important;
+  width: 65px !important;
+  height: 5px !important;
+  margin-top: 13px !important;
+  border-radius: 3px !important;
+  background: #35a976 !important;
+}
+
+.page-pedido .campo {
+  margin-bottom: 22px !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.page-pedido .campo label {
+  display: block !important;
+  color: #46535e !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  margin-bottom: 8px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.8px !important;
+}
+
+.page-pedido .campo input {
+  width: 100% !important;
+  padding: 14px 18px !important;
+  border-radius: 14px !important;
+  border: 1.5px solid #dbe6df !important;
+  background: #fbfdfc !important;
+  color: #46535e !important;
+  font-size: 15px !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+}
+
+.page-pedido .opcion {
+  margin-bottom: 25px !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.page-pedido .opcion h2 {
+  color: #46535e !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin-bottom: 12px !important;
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+}
+
+.page-pedido .botones {
+  display: flex !important;
+  gap: 15px !important;
+}
+
+.page-pedido .botones label {
+  flex: 1 !important;
+  margin: 0 !important;
+}
+
+.page-pedido .botones input[type="radio"] {
+  display: none !important;
+}
+
+.page-pedido .botones span {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 13px !important;
+  border-radius: 14px !important;
+  border: 1.5px solid #dbe6df !important;
+  background: #fbfdfc !important;
+  color: #46535e !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  transition: 0.2s !important;
+}
+
+.page-pedido .botones input[type="radio"]:checked + span {
+  border-color: #35a976 !important;
+  background: #e8f6ef !important;
+  color: #298d60 !important;
+}
+
+.page-pedido .continuar {
+  width: 100% !important;
+  padding: 16px !important;
+  border-radius: 16px !important;
+  border: none !important;
+  background: linear-gradient(135deg, #35a976 0%, #298d60 100%) !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  margin-top: 10px !important;
+}
+
+/* --------------------------------------------------------------------------
+   8. MÉTODO DE PAGO ACTUAL (.page-metodo-actual)
+   -------------------------------------------------------------------------- */
+.page-metodo-actual .contenedor {
+  width: 700px !important;
+  margin: 40px auto !important;
+  background: white !important;
+  padding: 30px !important;
+  border-radius: 12px !important;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, .2) !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-metodo-actual .contenedor h2 {
+  text-align: center !important;
+  margin-bottom: 35px !important;
+  color: #333 !important;
+  font-size: 35px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-metodo-actual .tarjeta {
+  display: flex !important;
+  align-items: center !important;
+  gap: 30px !important;
+  border: 2px solid #ddd !important;
+  border-radius: 10px !important;
+  padding: 25px !important;
+  background: #fafafa !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+.page-metodo-actual .tarjeta img {
+  width: 130px !important;
+  display: block !important;
+}
+
+.page-metodo-actual .datos {
+  font-size: 20px !important;
+  line-height: 45px !important;
+}
+
+.page-metodo-actual .acciones {
+  margin-top: 40px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 15px !important;
+}
+
+.page-metodo-actual .acciones button {
+  flex: 1 !important;
+  padding: 15px 15px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  background: #222 !important;
+  color: white !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  transition: 0.3s !important;
+  width: auto !important;
+}
+
+.page-metodo-actual .acciones button:hover {
+  background: linear-gradient(90deg, #FFD700, #81C784) !important;
+  color: #222 !important;
+}
+
+/* --------------------------------------------------------------------------
+   9. ELIMINAR MÉTODO (.page-eliminar-metodo)
+   -------------------------------------------------------------------------- */
+.page-eliminar-metodo .contenedor {
+  width: 550px !important;
+  margin: 60px auto !important;
+  background: white !important;
+  border-radius: 15px !important;
+  padding: 40px !important;
+  text-align: center !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .2) !important;
+  box-sizing: border-box !important;
+}
+
+.page-eliminar-metodo .contenedor img {
+  width: 90px !important;
+  margin: 0 auto 20px auto !important;
+  display: block !important;
+}
+
+.page-eliminar-metodo .contenedor h2 {
+  color: #222 !important;
+  margin-bottom: 15px !important;
+  font-size: 28px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-eliminar-metodo .contenedor p {
+  color: #555 !important;
+  line-height: 25px !important;
+  font-size: 16px !important;
+}
+
+.page-eliminar-metodo .tarjeta {
+  margin: 30px 0 !important;
+  background: #fafafa !important;
+  border-left: 6px solid #FFD700 !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+.page-eliminar-metodo .tarjeta h3 {
+  margin-bottom: 15px !important;
+  color: #222 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-eliminar-metodo .tarjeta p {
+  margin-bottom: 10px !important;
+  font-size: 17px !important;
+}
+
+.page-eliminar-metodo .advertencia {
+  background: #fff3cd !important;
+  color: #856404 !important;
+  border: 1px solid #ffeeba !important;
+  padding: 15px !important;
+  border-radius: 8px !important;
+  margin-bottom: 30px !important;
+  font-weight: bold !important;
+}
+
+.page-eliminar-metodo .botones {
+  display: flex !important;
+  gap: 15px !important;
+}
+
+.page-eliminar-metodo .botones button {
+  flex: 1 !important;
+  padding: 15px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  transition: .3s !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  width: auto !important;
+}
+
+.page-eliminar-metodo .eliminar {
+  background: #dc3545 !important;
+  color: white !important;
+}
+
+.page-eliminar-metodo .cancelar {
+  background: #444 !important;
+  color: white !important;
+}
+
+/* --------------------------------------------------------------------------
+   10. INGRESAR TARJETA (.page-ingresar-tarjeta)
+   -------------------------------------------------------------------------- */
+.page-ingresar-tarjeta .contenedor {
+  width: 550px !important;
+  margin: 60px auto !important;
+  background: white !important;
+  padding: 40px !important;
+  border-radius: 15px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2) !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-ingresar-tarjeta .tarjeta-icono-header {
+  display: block !important;
+  width: 90px !important;
+  margin: 0 auto 20px auto !important;
+}
+
+.page-ingresar-tarjeta .contenedor h2 {
+  text-align: center !important;
+  margin-bottom: 15px !important;
+  color: #222 !important;
+  font-size: 28px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-ingresar-tarjeta .contenedor p {
+  text-align: center !important;
+  color: #555 !important;
+  margin-bottom: 30px !important;
+  font-size: 16px !important;
+}
+
+.page-ingresar-tarjeta label {
+  display: block !important;
+  font-weight: bold !important;
+  margin-top: 15px !important;
+  margin-bottom: 8px !important;
+  text-align: left !important;
+}
+
+.page-ingresar-tarjeta input {
+  width: 100% !important;
+  padding: 12px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  box-sizing: border-box !important;
+}
+
+.page-ingresar-tarjeta .fila {
+  display: flex !important;
+  gap: 15px !important;
+  margin-top: 10px !important;
+}
+
+.page-ingresar-tarjeta .campo {
+  width: 50% !important;
+}
+
+.page-ingresar-tarjeta button {
+  width: 100% !important;
+  padding: 15px !important;
+  margin-top: 20px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+  transition: .3s !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-ingresar-tarjeta .btn-guardar {
+  background: #222 !important;
+  color: white !important;
+}
+
+.page-ingresar-tarjeta .btn-guardar:hover {
+  background: linear-gradient(90deg, #FFD700, #81C784) !important;
+  color: #222 !important;
+}
+
+.page-ingresar-tarjeta .volver {
+  background: #777 !important;
+  color: white !important;
+}
+
+.page-ingresar-tarjeta .volver:hover {
+  background: #555 !important;
+}
+
+/* --------------------------------------------------------------------------
+   11. VERIFICAR (.page-verificar)
+   -------------------------------------------------------------------------- */
+.page-verificar .contenedor {
+  width: 500px !important;
+  margin: 60px auto !important;
+  background: white !important;
+  padding: 40px !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2) !important;
+  box-sizing: border-box !important;
+}
+
+.page-verificar .contenedor img {
+  width: 100px !important;
+  margin: 0 auto 20px auto !important;
+  display: block !important;
+}
+
+.page-verificar .contenedor h2 {
+  margin-bottom: 20px !important;
+  font-size: 28px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  color: #222 !important;
+}
+
+.page-verificar .contenedor p {
+  margin-bottom: 25px !important;
+  color: #555 !important;
+  font-size: 16px !important;
+}
+
+.page-verificar label {
+  display: block !important;
+  margin-bottom: 10px !important;
+  font-weight: bold !important;
+  text-align: left !important;
+}
+
+.page-verificar input {
+  width: 100% !important;
+  padding: 12px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 6px !important;
+  margin-bottom: 25px !important;
+  font-size: 16px !important;
+  box-sizing: border-box !important;
+}
+
+.page-verificar button {
+  width: 100% !important;
+  padding: 15px !important;
+  border: none !important;
+  border-radius: 6px !important;
+  background: #222 !important;
+  color: white !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+  transition: .3s !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-verificar button:hover {
+  background: linear-gradient(90deg, #FFD700, #81C784) !important;
+  color: #222 !important;
+}
+
+.page-verificar .btn-volver {
+  background: #666 !important;
+  color: white !important;
+  margin-top: 15px !important;
+}
+
+.page-verificar .btn-volver:hover {
+  background: #555 !important;
+  color: white !important;
+}
+
+/* --------------------------------------------------------------------------
+   12. PÁGINAS DE PRODUCTOS (.page-detalle-producto)
+   -------------------------------------------------------------------------- */
+.page-detalle-producto .detalle-producto {
+  display: flex !important;
+  gap: 50px !important;
+  padding: 40px !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+.page-detalle-producto .galeria {
+  width: 60% !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 20px !important;
+  align-content: start !important;
+}
+
+.page-detalle-producto .galeria img {
+  width: 100% !important;
+  height: 380px !important;
+  object-fit: cover !important;
+  border-radius: 15px !important;
+  display: block !important;
+}
+
+.page-detalle-producto .info {
+  width: 40% !important;
+}
+
+.page-detalle-producto .info h1 {
+  font-size: 35px !important;
+  margin: 10px 0 !important;
+  color: #111 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-detalle-producto .info h2 {
+  font-size: 28px !important;
+  margin-bottom: 20px !important;
+  color: #222 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-detalle-producto .codigo {
+  color: gray !important;
+  font-size: 14px !important;
+}
+
+.page-detalle-producto .tallas {
+  display: flex !important;
+  gap: 10px !important;
+  margin: 25px 0 !important;
+}
+
+.page-detalle-producto .tallas button {
+  width: 60px !important;
+  height: 45px !important;
+  border: 1px solid #000 !important;
+  background: white !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  border-radius: 4px !important;
+  transition: 0.2s !important;
+}
+
+.page-detalle-producto .tallas button:hover {
+  background: #000 !important;
+  color: white !important;
+}
+
+.page-detalle-producto .boton1,
+.page-detalle-producto .boton2 {
+  width: 100% !important;
+  padding: 15px !important;
+  margin-top: 15px !important;
+  border: none !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  border-radius: 6px !important;
+  display: block !important;
+  text-align: center !important;
+}
+
+.page-detalle-producto .boton1 {
+  background: white !important;
+  border: 1px solid #000 !important;
+  color: #000 !important;
+}
+
+.page-detalle-producto .boton2 {
+  background: #3b4633 !important;
+  color: white !important;
+}
+
+.page-detalle-producto .beneficios {
+  margin-top: 30px !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 15px !important;
+  color: #555 !important;
+}
+
+.page-detalle-producto .card {
+  background: white !important;
+  border: 1px solid #ddd !important;
+  border-radius: 10px !important;
+  padding: 20px !important;
+  text-align: left !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08) !important;
+  transition: 0.3s !important;
+}
+
+.page-detalle-producto .card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.page-detalle-producto .card h3 {
+  margin: 0 0 10px 0 !important;
+  color: #222 !important;
+  font-size: 18px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-detalle-producto .card p {
+  margin: 0 !important;
+  line-height: 1.5 !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 14px !important;
+}
+
+.page-detalle-producto .card ul {
+  margin: 0 !important;
+  padding-left: 20px !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 14px !important;
+}
+
+.page-detalle-producto .card li {
+  margin-bottom: 5px !important;
+}
+
+.page-detalle-producto .card-grande {
+  grid-column: span 2 !important;
+}
+
+/* --------------------------------------------------------------------------
+   13. INICIO (.page-inicio)
+   -------------------------------------------------------------------------- */
+.page-inicio .contenido {
+  max-width: 900px !important;
+  margin: 50px auto !important;
+  padding: 30px !important;
+  background-color: #ffffff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  line-height: 1.8 !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-inicio .contenido h2 {
+  text-align: center !important;
+  color: #2e8b57 !important;
+  font-size: 2rem !important;
+  margin-bottom: 20px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-inicio .contenido p {
+  font-size: 1.1rem !important;
+  color: #444 !important;
+  margin-bottom: 15px !important;
+  text-align: justify !important;
+  line-height: 1.8 !important;
+}
+
+.page-inicio .contenido strong {
+  color: #1b5e20 !important;
+  font-size: 1.15rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   14. PERFIL (.page-perfil)
+   -------------------------------------------------------------------------- */
+.page-perfil .perfil-info {
+  text-align: center !important;
+  background: white !important;
+  width: 450px !important;
+  max-width: 90% !important;
+  margin: 40px auto !important;
+  padding: 30px !important;
+  border-radius: 15px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .2) !important;
+  box-sizing: border-box !important;
+}
+
+.page-perfil .perfil-info h2 {
+  text-align: center !important;
+  margin-top: 10px !important;
+  color: #333 !important;
+  font-size: 24px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-perfil .perfil-info img {
+  display: block !important;
+  margin: 20px auto !important;
+  border-radius: 50% !important;
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover !important;
+}
+
+.page-perfil .perfil-info h1 {
+  font-size: 22px !important;
+  color: #333 !important;
+  margin-bottom: 15px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-perfil .perfil-info form {
+  text-align: left !important;
+  margin-top: 15px !important;
+}
+
+.page-perfil .perfil-info label {
+  display: block !important;
+  margin-bottom: 5px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  color: #333 !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.page-perfil .perfil-info input {
+  width: 100% !important;
+  padding: 10px !important;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  margin-bottom: 15px !important;
+  font-size: 14px !important;
+  box-sizing: border-box !important;
+  outline: none !important;
+}
+
+.page-perfil .botones {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important;
+  margin-top: 25px !important;
+}
+
+.page-perfil .botones button {
+  width: 100% !important;
+  padding: 14px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  background: linear-gradient(90deg, #FFD700, #81C784) !important;
+  color: white !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  transition: .3s !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-perfil .botones button:hover {
+  color: #ffee07 !important;
+  transform: scale(1.02) !important;
+}
+
+/* --------------------------------------------------------------------------
+   15. CAPARAZONES 2 (.page-caparazones2)
+   -------------------------------------------------------------------------- */
+.page-caparazones2 main {
+  width: 90% !important;
+  max-width: 1200px !important;
+  margin: 40px auto !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-caparazones2 h1 {
+  color: #2e8b57 !important;
+  margin-bottom: 20px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  font-size: 32px !important;
+}
+
+.page-caparazones2 .parrafos p {
+  color: #555 !important;
+  line-height: 1.8 !important;
+  font-size: 18px !important;
+  margin: 5px 0 !important;
+}
+
+.page-caparazones2 .recompensas {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 30px !important;
+  margin-top: 40px !important;
+}
+
+.page-caparazones2 .card {
+  background: white !important;
+  border-radius: 15px !important;
+  padding: 30px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .15) !important;
+  transition: .3s !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-caparazones2 .card:hover {
+  transform: translateY(-8px) !important;
+}
+
+.page-caparazones2 .card h2 {
+  color: #2e8b57 !important;
+  margin-bottom: 10px !important;
+  font-size: 24px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-caparazones2 .card h3 {
+  color: #666 !important;
+  margin-bottom: 20px !important;
+  font-size: 18px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-caparazones2 .btn-canjear {
+  background: #ffd400 !important;
+  border: none !important;
+  padding: 12px 25px !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  transition: 0.2s !important;
+  width: auto !important;
+}
+
+.page-caparazones2 .btn-canjear:hover {
+  background: #8fd37b !important;
+  color: white !important;
+}
+
+.page-caparazones2 .modal-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 1000 !important;
+}
+
+.page-caparazones2 .modal-contenido {
+  background: white !important;
+  padding: 35px 30px !important;
+  border-radius: 20px !important;
+  text-align: center !important;
+  width: 380px !important;
+  max-width: 90% !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+.page-caparazones2 .modal-icono {
+  width: 70px !important;
+  height: 70px !important;
+  background: #e8f5e9 !important;
+  color: #2e7d32 !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 32px !important;
+  margin: 0 auto 15px auto !important;
+  font-weight: bold !important;
+}
+
+.page-caparazones2 .modal-subtitulo {
+  color: #2e8b57 !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+  display: block !important;
+  margin-bottom: 8px !important;
+}
+
+.page-caparazones2 .modal-titulo {
+  color: #222 !important;
+  font-size: 24px !important;
+  margin-bottom: 12px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-caparazones2 .modal-texto {
+  color: #666 !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  margin-bottom: 20px !important;
+}
+
+.page-caparazones2 .btn-aceptar {
+  background: #222 !important;
+  color: white !important;
+  border: none !important;
+  padding: 12px 30px !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  cursor: pointer !important;
+  width: 100% !important;
+}
+
+/* --------------------------------------------------------------------------
+   16. GUÍA DE MEDIDAS (.page-medidas)
+   -------------------------------------------------------------------------- */
+.page-medidas .volver {
+  display: inline-block !important;
+  color: #777 !important;
+  text-decoration: none !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 14px !important;
+  margin: 25px 0 0 50px !important;
+  text-align: left !important;
+}
+
+.page-medidas .guia-medidas {
+  width: 80% !important;
+  max-width: 900px !important;
+  margin: 30px auto 60px auto !important;
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 15px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .15) !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-medidas .guia-medidas h2 {
+  margin-bottom: 25px !important;
+  font-size: 35px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+  color: #222 !important;
+}
+
+.page-medidas .imagen-guia {
+  margin-bottom: 25px !important;
+}
+
+.page-medidas .imagen-guia img {
+  width: 300px !important;
+  max-width: 100% !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.page-medidas .guia-medidas table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin-top: 20px !important;
+}
+
+.page-medidas .guia-medidas th {
+  background: linear-gradient(90deg, #FFD700, #81C784) !important;
+  color: white !important;
+  padding: 15px !important;
+  font-size: 15px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-medidas .guia-medidas td {
+  padding: 12px !important;
+  border: 1px solid #ddd !important;
+  font-size: 15px !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.page-medidas .guia-medidas tr:nth-child(even) {
+  background: #f7f7f7 !important;
+}
+
+.page-medidas .guia-medidas tr:hover {
+  background: #ececec !important;
+  transition: .3s !important;
+}
+
+/* --------------------------------------------------------------------------
+   17. SEGUIMIENTO (.page-seguimiento)
+   -------------------------------------------------------------------------- */
+.page-seguimiento {
+  min-height: 100vh !important;
+  background: linear-gradient(135deg, #eef5f1, #f9fbfa) !important;
+  font-family: "Trebuchet MS", Arial, sans-serif !important;
+  color: #46535e !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 30px 20px !important;
+  box-sizing: border-box !important;
+}
+
+.page-seguimiento .telefono {
+  width: 100% !important;
+  max-width: 480px !important;
+  background: white !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border-radius: 35px !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15) !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.page-seguimiento .barra-superior {
+  width: 100% !important;
+  height: 60px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0 25px !important;
+  box-sizing: border-box !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.page-seguimiento .barra-superior a {
+  color: #666 !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+}
+
+.page-seguimiento .barra-superior span {
+  font-size: 14px !important;
+  color: #999 !important;
+  font-weight: bold !important;
+}
+
+.page-seguimiento .contenido {
+  padding: 30px 25px !important;
+  text-align: center !important;
+}
+
+.page-seguimiento .tortuga {
+  font-size: 45px !important;
+  margin-bottom: 10px !important;
+}
+
+.page-seguimiento .marca {
+  color: #35a976 !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 8px !important;
+}
+
+.page-seguimiento h1 {
+  font-size: 26px !important;
+  line-height: 1.2 !important;
+  margin-bottom: 25px !important;
+  color: #333 !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-seguimiento .mapa {
+  height: 180px !important;
+  background: #edf5f0 !important;
+  border-radius: 20px !important;
+  margin-bottom: 25px !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.page-seguimiento .ruta {
+  position: absolute !important;
+  top: 50% !important;
+  left: 15% !important;
+  right: 15% !important;
+  height: 4px !important;
+  background: #c8e6d4 !important;
+  transform: translateY(-50%) !important;
+}
+
+.page-seguimiento .pin {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: #35a976 !important;
+  font-size: 28px !important;
+}
+
+.page-seguimiento .punto {
+  position: absolute !important;
+  top: 50% !important;
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+  transform: translateY(-50%) !important;
+  background: #35a976 !important;
+}
+
+.page-seguimiento .p1 { left: 15% !important; }
+.page-seguimiento .p2 { left: 50% !important; }
+.page-seguimiento .p3 { right: 15% !important; }
+
+.page-seguimiento .estado {
+  display: flex !important;
+  align-items: center !important;
+  gap: 15px !important;
+  text-align: left !important;
+  background: #f8faf9 !important;
+  padding: 16px 20px !important;
+  border-radius: 16px !important;
+  margin-bottom: 25px !important;
+}
+
+.page-seguimiento .pulso {
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+  background: #35a976 !important;
+  display: inline-block !important;
+  box-shadow: 0 0 0 rgba(53, 169, 118, 0.4) !important;
+  animation: pulsoAnim 1.8s infinite !important;
+}
+
+@keyframes pulsoAnim {
+  0% { box-shadow: 0 0 0 0 rgba(53, 169, 118, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(53, 169, 118, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(53, 169, 118, 0); }
+}
+
+.page-seguimiento .estado strong {
+  display: block !important;
+  font-size: 16px !important;
+  color: #333 !important;
+}
+
+.page-seguimiento .estado small {
+  color: #777 !important;
+  font-size: 13px !important;
+}
+
+.page-seguimiento .progreso {
+  display: flex !important;
+  justify-content: space-between !important;
+  position: relative !important;
+  margin-bottom: 30px !important;
+}
+
+.page-seguimiento .progreso .linea {
+  position: absolute !important;
+  top: 15px !important;
+  left: 20px !important;
+  right: 20px !important;
+  height: 2px !important;
+  background: #e0e0e0 !important;
+  z-index: 1 !important;
+}
+
+.page-seguimiento .paso {
+  position: relative !important;
+  z-index: 2 !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.page-seguimiento .paso span {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  background: #e0e0e0 !important;
+  color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: bold !important;
+  font-size: 13px !important;
+  margin-bottom: 8px !important;
+}
+
+.page-seguimiento .paso.activo span {
+  background: #35a976 !important;
+}
+
+.page-seguimiento .paso small {
+  font-size: 12px !important;
+  color: #777 !important;
+  line-height: 1.2 !important;
+}
+
+.page-seguimiento .acciones {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+.page-seguimiento .acciones button {
+  width: 100% !important;
+  padding: 14px !important;
+  border-radius: 12px !important;
+  border: none !important;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+  transition: 0.2s !important;
+}
+
+.page-seguimiento .btn-llego {
+  background: #35a976 !important;
+  color: white !important;
+}
+
+.page-seguimiento .btn-inicio {
+  background: #f0f0f0 !important;
+  color: #555 !important;
+}
+
+/* --------------------------------------------------------------------------
+   18. LOGIN & REGISTRO BÁSICO (.page-login, .page-registro)
+   -------------------------------------------------------------------------- */
+.page-login {
+  min-height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #f4f4f4 !important;
+  padding: 20px !important;
+  box-sizing: border-box !important;
+}
+
+.page-login .dropdown-menu {
+  background: white !important;
+  width: 350px !important;
+  max-width: 100% !important;
+  padding: 25px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2) !important;
+  box-sizing: border-box !important;
+}
+
+.page-login label {
+  display: block !important;
+  margin-bottom: 5px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  color: #333 !important;
+}
+
+.page-login .form-control {
+  width: 100% !important;
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  font-size: 14px !important;
+  outline: none !important;
+}
+
+.page-login .form-check {
+  margin-bottom: 15px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  text-align: left !important;
+}
+
+.page-login .btn {
+  display: inline-block !important;
+  width: 100% !important;
+  padding: 12px !important;
+  background: linear-gradient(to bottom, #FFD700, #81C784) !important;
+  color: white !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  border: none !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  box-sizing: border-box !important;
+}
+
+.page-login .dropdown-divider {
+  height: 1px !important;
+  background: #e5e5e5 !important;
+  margin: 15px 0 !important;
+}
+
+.page-login .dropdown-item {
+  display: block !important;
+  margin-top: 10px !important;
+  text-decoration: none !important;
+  color: #2e8b57 !important;
+  font-size: 14px !important;
+  text-align: left !important;
+}
+
+.page-login .dropdown-item:hover {
+  text-decoration: underline !important;
+}
+
+/* --------------------------------------------------------------------------
+   19. REGISTRO DE USUARIO (.page-registrousuario)
+   -------------------------------------------------------------------------- */
+.page-registrousuario {
+  min-height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #f5f5f5 !important;
+  padding: 30px 20px !important;
+  box-sizing: border-box !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.page-registrousuario .registro {
+  width: 420px !important;
+  max-width: 100% !important;
+  background-color: white !important;
+  padding: 30px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15) !important;
+  box-sizing: border-box !important;
+}
+
+.page-registrousuario h1 {
+  text-align: center !important;
+  color: #174d2b !important;
+  margin-bottom: 5px !important;
+  font-size: 28px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-registrousuario .subtitulo {
+  text-align: center !important;
+  color: #777 !important;
+  margin-bottom: 25px !important;
+  font-size: 14px !important;
+}
+
+.page-registrousuario label {
+  font-weight: bold !important;
+  margin-bottom: 7px !important;
+  color: #222 !important;
+  display: block !important;
+  text-align: left !important;
+  font-size: 14px !important;
+}
+
+.page-registrousuario input[type="text"],
+.page-registrousuario input[type="email"],
+.page-registrousuario input[type="tel"],
+.page-registrousuario input[type="date"],
+.page-registrousuario input[type="password"] {
+  width: 100% !important;
+  padding: 11px !important;
+  margin-bottom: 16px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  box-sizing: border-box !important;
+  outline: none !important;
+}
+
+.page-registrousuario .terminos {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin: 5px 0 20px !important;
+  text-align: left !important;
+}
+
+.page-registrousuario button {
+  width: 100% !important;
+  padding: 12px !important;
+  border: 2px solid gray !important;
+  border-radius: 5px !important;
+  background: #333 !important;
+  color: white !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+}
+
+.page-registrousuario button a {
+  color: white !important;
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.page-registrousuario .login {
+  margin-top: 20px !important;
+  text-align: center !important;
+  color: #555 !important;
+  font-size: 14px !important;
+}
+
+.page-registrousuario .login a {
+  color: #174d2b !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+/* --------------------------------------------------------------------------
+   20. OLVIDASTE CONTRASEÑA (.page-olvidastecontrasena)
+   -------------------------------------------------------------------------- */
+.page-olvidastecontrasena {
+  min-height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #f4f4f4 !important;
+  padding: 20px !important;
+  box-sizing: border-box !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.page-olvidastecontrasena .dropdown-menu {
+  background: white !important;
+  width: 350px !important;
+  max-width: 100% !important;
+  padding: 25px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2) !important;
+  box-sizing: border-box !important;
+}
+
+.page-olvidastecontrasena label {
+  display: block !important;
+  margin-bottom: 5px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  text-align: left !important;
+}
+
+.page-olvidastecontrasena .form-control {
+  width: 100% !important;
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  font-size: 14px !important;
+  outline: none !important;
+}
+
+.page-olvidastecontrasena .btn {
+  display: inline-block !important;
+  width: 100% !important;
+  padding: 15px !important;
+  background: linear-gradient(to bottom, #FFD700, #81C784) !important;
+  color: white !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  border: none !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  box-sizing: border-box !important;
+}
+
+.page-olvidastecontrasena .dropdown-item {
+  display: block !important;
+  margin-top: 15px !important;
+  text-decoration: none !important;
+  color: #2e8b57 !important;
+  font-size: 14px !important;
+  text-align: left !important;
+}
+
+/* --------------------------------------------------------------------------
+   21. PAGO DIRECTO (.page-pago)
+   -------------------------------------------------------------------------- */
+.page-pago .contenedor {
+  width: 90% !important;
+  max-width: 1100px !important;
+  margin: 50px auto !important;
+  display: flex !important;
+  gap: 40px !important;
+  box-sizing: border-box !important;
+}
+
+.page-pago .producto {
+  width: 40% !important;
+  background: white !important;
+  border-radius: 20px !important;
+  padding: 30px !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .15) !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.page-pago .producto img {
+  width: 100% !important;
+  border-radius: 15px !important;
+  transition: .4s !important;
+  display: block !important;
+}
+
+.page-pago .producto h2 {
+  margin-top: 20px !important;
+  color: #1f2937 !important;
+  font-size: 22px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-pago .producto p {
+  color: #666 !important;
+  margin: 10px 0 !important;
+}
+
+.page-pago .precio {
+  margin-top: 20px !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+
+.page-pago .precio span {
+  color: #2e8b57 !important;
+}
+
+.page-pago .pago {
+  width: 60% !important;
+  background: white !important;
+  border-radius: 20px !important;
+  padding: 30px !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .15) !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+}
+
+.page-pago .pago h2 {
+  margin-bottom: 20px !important;
+  color: #1f2937 !important;
+  font-size: 24px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-pago label {
+  display: block !important;
+  margin-top: 18px !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+}
+
+.page-pago input {
+  width: 100% !important;
+  padding: 14px !important;
+  margin-top: 6px !important;
+  border: none !important;
+  border-radius: 10px !important;
+  background: #f3f5f7 !important;
+  font-size: 15px !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+}
+
+.page-pago .fila {
+  display: flex !important;
+  gap: 20px !important;
+}
+
+.page-pago .campo {
+  width: 100% !important;
+}
+
+.page-pago button {
+  width: 100% !important;
+  margin-top: 30px !important;
+  padding: 15px !important;
+  border: none !important;
+  border-radius: 12px !important;
+  background: linear-gradient(90deg, #FFD700, #81C784) !important;
+  color: white !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.page-pago #mensaje {
+  margin-top: 25px !important;
+  background: #d4edda !important;
+  color: #155724 !important;
+  text-align: center !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+  font-weight: bold !important;
+}
